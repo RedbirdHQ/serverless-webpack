@@ -387,6 +387,10 @@ Plugin commands are supported by the following providers. ⁇ indicates that com
 
 ## Release Notes
 
+* 3.1.0
+  * Allow filesystem polling in watch mode (`--webpack-use-polling`) [#215][link-215]
+  * Allow forced include of not referenced modules [#217][link-217]
+
 * 3.0.0
   * Integrate with `serverless invoke local` [#151][link-151]
   * Support watch mode with `serverless invoke local --watch`
@@ -483,3 +487,6 @@ Plugin commands are supported by the following providers. ⁇ indicates that com
 [link-186]: https://github.com/serverless-heaven/serverless-webpack/pull/186
 
 [link-202]: https://github.com/serverless-heaven/serverless-webpack/issues/202
+
+[link-215]: https://github.com/serverless-heaven/serverless-webpack/issues/215
+[link-217]: https://github.com/serverless-heaven/serverless-webpack/issues/217
